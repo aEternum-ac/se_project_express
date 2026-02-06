@@ -18,3 +18,9 @@ This project is to create a server for the WTWR application. The project include
 ### Middleware
 - **Express Middleware**: Used for parsing JSON, handling errors, and managing routes.
 - **Custom Middleware**: Middleware to simulate user authentication by adding a user object to the request.
+
+
+## Links
+- [Frontend Domain](https://longvh12.crabdance.com)
+- [Backend API Domain](https://api.longvh12.crabdance.com)
+- [Frontend Github Repository](https://github.com/aEternum-ac/se_project_react)
