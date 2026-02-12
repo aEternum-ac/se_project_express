@@ -24,3 +24,4 @@ This project is to create a server for the WTWR application. The project include
 - [Frontend Domain](https://longvh12.crabdance.com)
 - [Backend API Domain](https://api.longvh12.crabdance.com)
 - [Frontend Github Repository](https://github.com/aEternum-ac/se_project_react)
+- [Project Pitch Video](https://drive.google.com/file/d/1kSExtPM1JgeKZEE8t7eerUhJNrvOQgE3/view?usp=sharing)
