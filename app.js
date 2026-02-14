@@ -11,7 +11,6 @@ const app = express();
 
 const User = require("./models/user");
 const errorHandler = require("./middlewares/error-handler");
-const { NotFoundError } = require("./utils/errors");
 
 
 mongoose
