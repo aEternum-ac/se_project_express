@@ -30,7 +30,7 @@ module.exports.createItem = (req, res, next) => {
   const owner = req.user._id;
 
   ClothingItem.create({ name, weather, imageUrl, owner })
-    .then((clothingItem) => res.send({ data: clothingItem }))
+    .then((clothingItem) => res.status(201).send({ data: clothingItem }))
     .catch((err) => {
       if (err.name === "ValidationError") {
         return next(new BadRequestError("Invalid data."));

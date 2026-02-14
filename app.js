@@ -26,10 +26,6 @@ app.use(requestLogger);
 
 app.use("/", require("./routes/index"));
 
-app.use((req, res, next) => {
-  next(new NotFoundError("Requested resource not found"));
-});
-
 app.use(errorLogger);
 app.use(errors());
 
